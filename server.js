@@ -2,7 +2,7 @@ const express = require('express') //add express
 const app = express() //initiate
 const MongoClient = require('mongodb').MongoClient //add mongo mpn package
 const PORT = 2121 //assign a port number
-require('dotenv').config() //call dotenv
+require('dotenv').config() //call dotenv to use .env files and use your mongo IDs withoue loading
 
 
 let db, //declare db
