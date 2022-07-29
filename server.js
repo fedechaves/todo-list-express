@@ -1,4 +1,4 @@
-const express = require('express') //add express
+const express = require('express') //add express library for backend
 const app = express() //initiate
 const MongoClient = require('mongodb').MongoClient //add mongo mpn package
 const PORT = 2121 //assign a port number
